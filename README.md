@@ -24,7 +24,7 @@ Welcome to the SquareEyes movie shop! This web application allows users to brows
   - `checkout.js`: JavaScript for managing the checkout process.
     
 ## Launch
-[Live Deploy]()
+[Live Deploy](ca-js.netlify.app)
 
 Usage
 - Browse Movies: Visit the home page to see the list of movies.
