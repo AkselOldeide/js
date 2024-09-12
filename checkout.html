@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="/JS/checkout.js"></script>
+    <meta name="author" content="Aksel Oldeide">
+</head>
+<body>
+    <header>
+        <a class="return-button" href="index.html">← Back</a>
+        <h1 class="logo-text">SquareEyes</h1>
+        <div id="cart">
+            <button id="cart-toggle-button">Shopping Cart (<span id="cart-count">0</span>)</button>
+            <div id="cart-items-dropdown" class="hidden">
+                <div id="cart-items-list"></div>
+                <button id="checkout-button" class="hidden">Checkout</button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <h2>Checkout</h2>
+        <section id="checkout-items-list">
+        </section>
+        <div id="pay-button">
+            <h3>Total: $<span id="total-price">0.00</span></h3>
+            <a href="thank-you.html"><button>Check out</button></a>
+        </div>
+    </main>
+</body>
+</html>

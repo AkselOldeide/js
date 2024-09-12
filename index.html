@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Products</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="/JS/index.js"></script>
+    <meta name="author" content="Aksel Oldeide">
+</head>
+
+<body>
+    <header>
+        <a class="return-button" href="#">Home</a>
+        <h1 class="logo-text">SquareEyes</h1>
+        <div id="cart">
+          <button id="cart-toggle-button">Shopping Cart (<span id="cart-count">0</span>)</button>
+          <div id="cart-items-dropdown" class="hidden">
+            <div id="cart-items-list"></div>
+          </div>
+        </div>
+      </header>
+      
+        
+
+    <main>
+        <h2>Filter Movies</h2>
+        <div id="filtering">    
+            <select id="parameter">
+                <option value="none">No filter</option>
+                <option value="genre">Genre</option>
+                <option value="released">Year</option>
+            </select>
+            <select id="value"></select>
+            <button id="apply-filter">Apply Filter</button>
+        </div>
+
+        <section id="movies-by-custom-sorting"></section>
+    </main>
+</body>
+</html>
